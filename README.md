@@ -1,2 +1,2 @@
 # theme_deltares
-R theme packages in the Deltares corporate identity
+An R plot theme package using the Deltares style and colour scheme
