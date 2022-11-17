@@ -67,7 +67,7 @@ theme_deltares <- function(base_size = 11, base_family = "",
       panel.grid       = ggplot2::element_line(colour = "lightgrey"),
       panel.grid.major = ggplot2::element_line(colour = "lightgrey", linewidth = ggplot2::rel(0.1)),
       panel.grid.minor = ggplot2::element_blank(),
-      panel.spacing = ggplot2::unit(ggplot2::rel(0.3), "line"),
+      panel.spacing = ggplot2::unit(ggplot2::rel(0.5), "line"),
       # strips with blank background and white text
       strip.background = ggplot2::element_blank(),
       strip.text       = ggplot2::element_text(
