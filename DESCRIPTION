@@ -1,0 +1,16 @@
+Package: themedeltares
+Title: Deltares plot theme package
+Version: 1.0.0
+Authors@R: 
+    person("Kees", "Wesdorp", , "keeswesdorp@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Adds a theme with the Deltares corporate identity style and colours for plots.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.2
+Imports: 
+    ggplot2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
