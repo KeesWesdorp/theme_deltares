@@ -68,9 +68,10 @@ mtcars2 <- within(mtcars, {
 
 ```
 
-## deltares_colors()
+## Example deltares_colors()
 
 All available colors
+
 ```{r , echo =FALSE}
 library(knitr)
 
@@ -92,7 +93,8 @@ lookup_table <- dplyr::tribble(
 kable(lookup_table)
 ```
 
-List of available colorschemes
+List of available themes
+
 
 * DeltaresDefault   = c('blauw1', 'blauw2', 'blauw3', 'groen1', 'groen2', 'groen3')
 * DeltaresFull      = c('blauw1', 'blauw2', 'blauw3', 'groen1', 'groen2', 'groen3', 'academy', 'geel', 'grijs2', 'zwart')
@@ -103,7 +105,9 @@ List of available colorschemes
 * DeltaresOranges   = c('academy', 'geel', 'grijs2')
 * DeltaresOranges_r = c('grijs2', 'geel', 'academy')
 
+
 ## examples of usages
+
 
 ```{r example 2}
 library(themedeltares)
@@ -143,4 +147,5 @@ library(themedeltares)
  # or in combination with deltares_theme()
  
  p1 + theme_deltares() + ggplot2::scale_colour_manual(values=c(deltares_colors()))
+
 ```

@@ -66,7 +66,7 @@ mtcars2 <- within(mtcars, {
 
 <img src="man/figures/README-example-2.png" width="100%" />
 
-## deltares_colors()
+## Example deltares_colors()
 
 All available colors
 
@@ -84,7 +84,7 @@ All available colors
 | geel    | \#ffd814 |
 | academy | \#ff960d |
 
-List of available colorschemes
+List of available themes
 
 - DeltaresDefault = c(‘blauw1’, ‘blauw2’, ‘blauw3’, ‘groen1’, ‘groen2’,
   ‘groen3’)
