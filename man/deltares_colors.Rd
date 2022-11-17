@@ -67,6 +67,6 @@ mtcars2 <- within(mtcars, {
     colour = "Gears"
   )
 
-p1 + scale_colour_manual(values=c(deltares_colors())) # the default Deltares colourscheme
+p1 + ggplot2::scale_colour_manual(values=c(deltares_colors())) # the default Deltares colourscheme
 
 }
