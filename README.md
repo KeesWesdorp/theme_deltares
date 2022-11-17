@@ -118,7 +118,6 @@ library(themedeltares)
 
  library(ggplot2)
 
-
 # create dataset
  mtcars2 <- within(mtcars, {
    vs <- factor(vs, labels = c("V-shaped", "Straight"))
