@@ -109,7 +109,7 @@ List of available themes
 ## examples of usages
 
 
-```{r example 2}
+```{r example2}
 library(themedeltares)
 
  deltares_colors() # default color scheme with 6 Deltares colours

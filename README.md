@@ -142,7 +142,7 @@ library(themedeltares)
  p1 + ggplot2::scale_colour_manual(values=c(deltares_colors())) # the default Deltares colourscheme
 ```
 
-<img src="man/figures/README-example 2-1.png" width="100%" />
+<img src="man/figures/README-example2-1.png" width="100%" />
 
 ``` r
 
@@ -151,4 +151,4 @@ library(themedeltares)
  p1 + theme_deltares() + ggplot2::scale_colour_manual(values=c(deltares_colors()))
 ```
 
-<img src="man/figures/README-example 2-2.png" width="100%" />
+<img src="man/figures/README-example2-2.png" width="100%" />
