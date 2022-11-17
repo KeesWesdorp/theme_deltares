@@ -1,4 +1,4 @@
-#' Deltares plot theme package
+#' Deltares plot theme function
 #'
 #'
 #' @param base_size base font size, given in pts.

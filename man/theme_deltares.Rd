@@ -2,7 +2,7 @@
 % Please edit documentation in R/theme_deltares.R
 \name{theme_deltares}
 \alias{theme_deltares}
-\title{Deltares plot theme package}
+\title{Deltares plot theme function}
 \usage{
 theme_deltares(
   base_size = 11,
@@ -21,7 +21,7 @@ theme_deltares(
 \item{base_rect_size}{base size for rect elements}
 }
 \description{
-Deltares plot theme package
+Deltares plot theme function
 }
 \examples{
 mtcars2 <- within(mtcars, {
