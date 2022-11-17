@@ -13,14 +13,19 @@ deltares_colors(
 )
 }
 \arguments{
-\item{palette}{Indicates the type of palette. Can be either "diverging" or "sequential". Default is "diverging", which will use distinct Deltares colors based on the colorscheme you've provided. Set this parameter to "sequential" to generate a a sequential scheme based on one of the Deltares colors. You can define the starting color with the parameter color and you can choose to go to either white or black by setting the parameter shade to "light" or "black" respectively.}
+\item{palette}{Indicates the type of palette. Can be either "diverging" or "sequential". Default is "diverging", which will use distinct Deltares colors based on the colorscheme you've provided.
+Set this parameter to "sequential" to generate a a sequential scheme based on one of the Deltares colors.
+You can define the starting color with the parameter color and you can choose to go to either white or black by setting the parameter shade to "light" or "black" respectively.}
 
-\item{colorscheme}{Deltares divering color schemes. Default is "DeltaresDefault" (n = 6). Available schemes are: "DeltaresDefault" (n=6), "DeltaresFull" (n=10), "DeltaresBlues" (n=3),
-"DeltaresBlues_r" (n=3), "DeltaresGreens" (n=3), "DeltaresGreens_r" (n=3), "DeltaresOranges" (n=3), "DeltaresOranges_r" (n=3).}
+\item{colorscheme}{Deltares divering color schemes. Default is "DeltaresDefault" (n = 6).
+Available schemes are: "DeltaresDefault" (n=6), "DeltaresFull" (n=10), "DeltaresBlues" (n=3), "DeltaresBlues_r" (n=3),
+"DeltaresGreens" (n=3), "DeltaresGreens_r" (n=3), "DeltaresOranges" (n=3), "DeltaresOranges_r" (n=3).}
 
-\item{color}{The color that is used when palette is set to "sequential. Default is "blauw1". A full list of color choices and their hexcodes is available on https://github.com/KeesWesdorp/theme_deltares Will create a color scheme with this color to either white or black, depending on your choice with the parameter shade.}
+\item{color}{The color that is used when palette is set to "sequential. Default is "blauw1". A full list of color choices and their hexcodes is available on https://github.com/KeesWesdorp/theme_deltares
+Will create a color scheme with this color to either white or black, depending on your choice with the parameter shade.}
 
-\item{shade}{Parameter that is used when palette is set to "sequential. Can be either "light" or "dark". Default is "light". Will create a color scheme to either "white"(#FFFFFF) if you set this to "light" or "black" (#000000) if you set it to "dark"}
+\item{shade}{Parameter that is used when palette is set to "sequential. Can be either "light" or "dark". Default is "light".
+Will create a color scheme to either "white"(#FFFFFF) if you set this to "light" or "black" (#000000) if you set it to "dark"}
 
 \item{ncolors}{Number of colors that are generated when palette is "sequential". Default is 3.}
 }
@@ -39,7 +44,7 @@ deltares_colors(colorscheme = "DeltaresFull") # all Deltares colours (n = 10)
 deltares_colors(palette = "sequential", ncolors = 10) # creates sequential color scheme with 10 colors starting with default color "blauw1" (#080c80) all the way to white (#FFFFFF)
 deltares_colors(palette = "sequential", color = "blauw3", shade = "dark", ncolors = 8)  # creates sequential scheme from blauw3(#0ebbf0) to black (#000000)
 
-Use with ggplot:
+# Use with ggplot:
 
 # create dataset
 mtcars2 <- within(mtcars, {

@@ -44,6 +44,8 @@ colorlist <- c("DeltaresDefault", "DeltaresFull", "DeltaresBlues", "DeltaresBlue
 #' @param ncolors Number of colors that are generated when palette is "sequential". Default is 3.
 #'
 #' @return A character vector.
+#'
+#' @importFrom magrittr %>%
 #' @export
 #'
 #' @examples
@@ -78,7 +80,7 @@ colorlist <- c("DeltaresDefault", "DeltaresFull", "DeltaresBlues", "DeltaresBlue
 #'     colour = "Gears"
 #'   )
 #'
-#' p1 + scale_colour_manual(values=c(deltares_colors())) # the default Deltares colourscheme
+#' p1 + ggplot2::scale_colour_manual(values=c(deltares_colors())) # the default Deltares colourscheme
 #'
 deltares_colors <- function(palette = "diverging", colorscheme = "DeltaresDefault", color = "blauw1",
                             shade = "light", ncolors = 3) {

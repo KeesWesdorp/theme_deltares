@@ -2,3 +2,4 @@
 
 export(deltares_colors)
 export(theme_deltares)
+importFrom(magrittr,"%>%")
