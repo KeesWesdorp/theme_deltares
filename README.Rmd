@@ -74,6 +74,8 @@ All available colors
 
 ```{r , echo =FALSE}
 library(knitr)
+library(scales)
+library(dplyr)
 
 lookup_table <- dplyr::tribble(
   ~color, ~hexcode,
@@ -89,8 +91,12 @@ lookup_table <- dplyr::tribble(
   'geel', '#ffd814',
   'academy', '#ff960d',
 )
+mycol <- lookup_table$hexcode
 
-kable(lookup_table)
+print(kable(lookup_table))
+
+show_col(mycol)
+
 ```
 
 List of available themes

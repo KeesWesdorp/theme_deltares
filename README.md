@@ -70,19 +70,31 @@ mtcars2 <- within(mtcars, {
 
 All available colors
 
-| color   | hexcode  |
-|:--------|:---------|
-| zwart   | \#000000 |
-| blauw1  | \#080c80 |
-| blauw2  | \#0d38e0 |
-| blauw3  | \#0ebbf0 |
-| groen1  | \#00b389 |
-| groen2  | \#00cc96 |
-| groen3  | \#00e6a1 |
-| grijs1  | \#f2f2f2 |
-| grijs2  | \#e6e6e6 |
-| geel    | \#ffd814 |
-| academy | \#ff960d |
+    #> 
+    #> Attaching package: 'dplyr'
+    #> The following objects are masked from 'package:stats':
+    #> 
+    #>     filter, lag
+    #> The following objects are masked from 'package:base':
+    #> 
+    #>     intersect, setdiff, setequal, union
+    #> 
+    #> 
+    #> |color   |hexcode |
+    #> |:-------|:-------|
+    #> |zwart   |#000000 |
+    #> |blauw1  |#080c80 |
+    #> |blauw2  |#0d38e0 |
+    #> |blauw3  |#0ebbf0 |
+    #> |groen1  |#00b389 |
+    #> |groen2  |#00cc96 |
+    #> |groen3  |#00e6a1 |
+    #> |grijs1  |#f2f2f2 |
+    #> |grijs2  |#e6e6e6 |
+    #> |geel    |#ffd814 |
+    #> |academy |#ff960d |
+
+<img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
 
 List of available themes
 
